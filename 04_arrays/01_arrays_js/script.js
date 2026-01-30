@@ -1,7 +1,6 @@
 /* arrays are the collections of items..
 These are special type of objects where keys are indices and values are elements..
 These are mutable.
-
 */
 
 // let marks = {
@@ -27,18 +26,27 @@ for (let n of num) {
     console.log(n);
 }
 
-//pr question 1.. average of the student marks?
-let stdMarks = [85, 97, 44, 37, 76, 60];
-let sum = 0;
-for(let n of stdMarks) {
-    sum += n;
-}
-console.log(sum/stdMarks.length);
 
-//pr question 2.. offer is 10% on each price and return the new prices array..
-let prices = [250, 645, 300, 900, 50];
-for(let i=0; i<prices.length; i++) {
-    let off = (prices[i]*10)/100;
-    prices[i] -= off;
-}
-console.log(prices); 
+//Array methods..
+let foods = ["potato", "apple", "lichi"];
+foods.push("chips", "burger", "paneer");
+console.log(foods);
+foods.pop();
+console.log(foods);
+console.log(foods.toString());
+// concat returns a new array..
+let marHeroes = ["ironman", "thor", "bucky", "nebula", "starLord"];
+let dcHeroes = ["superman",  "batman"];
+let heroes = marHeroes.concat(dcHeroes);
+console.log(heroes);
+
+marHeroes.unshift("antman"); //adds something in the starting..
+console.log(marHeroes);
+dcHeroes.shift(); //delete one from the starting..
+console.log(dcHeroes);
+
+console.log(marHeroes.slice(1, 3)); //slice returns a different array..
+let s = [3, 23, 345, 456, 342, 656, 56];
+//splice => change original array => splice(startIdx, delCount, newEl1..)
+s.splice(2, 2, 1534, 34532);
+console.log(s);
