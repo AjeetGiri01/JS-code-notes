@@ -13,3 +13,12 @@ for(let i=0; i<prices.length; i++) {
     prices[i] -= off;
 }
 console.log(prices); 
+
+//pr qs 3..
+let companies = ["Bloomberg", "Microsoft", "Uber", "Google", "IBM", "Netflix"];
+companies.shift();
+console.log(companies);
+companies.splice(2, 1, "Ola");
+console.log(companies);
+companies.push("Amazon");
+console.log(companies);
