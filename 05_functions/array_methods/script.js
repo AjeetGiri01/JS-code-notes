@@ -39,3 +39,42 @@ let evenNo = arr2.filter((e) => {
 });
 console.log(evenNo);
 console.log(arr2);
+
+
+//3. reduce method => performs some operations and reduces the array to a single value.
+let arr3 = [2, 4, 5, 3];
+const output = arr3.reduce((pre, curr) => { // initially pre=2, curr=4
+    return pre + curr;
+});
+console.log(output);
+
+const great = arr3.reduce((pre, curr) => {
+    if(pre>curr) return pre;
+    return curr;
+});
+console.log(great);
+
+
+//pr qs.. filter out marks more than 90..
+const marks = [45, 97, 93, 23, 45, 65, 89, 78];
+let high = marks.filter((m) => {
+    return m>90;
+});
+console.log(high);
+
+
+//pr qs..reduce method to calculate sum and product of nums.
+const n = prompt("Enter any number for sum and product:");
+let nums2 = [];
+for(let i=1; i<=n; i++){
+    nums2[i-1] = i;
+}
+console.log(nums2);
+let sumNums = nums2.reduce((pre, curr) => {
+    return pre+curr;
+});
+console.log(sumNums);
+let prodNums = nums2.reduce((pre, curr) => {
+    return pre*curr;
+});
+console.log(prodNums);
