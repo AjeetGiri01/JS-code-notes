@@ -1,0 +1,15 @@
+h1 {
+    background-color: yellow;
+    color: aqua;
+}
+.heading-class{
+    background-color: antiquewhite;
+    color: blueviolet;
+}
+button {
+    background-color: antiquewhite;
+    color: black;
+}
+body {
+    background-color: pink;
+}
