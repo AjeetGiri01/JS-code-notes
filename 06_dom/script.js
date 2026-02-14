@@ -9,3 +9,11 @@ console.dir(firstEl);
 
 let elements = document.querySelectorAll("p"); // select all .myclass/#myid/p
 console.dir(elements);
+
+
+/*
+tagName
+innerText
+innerHTML
+texrContent
+*/
