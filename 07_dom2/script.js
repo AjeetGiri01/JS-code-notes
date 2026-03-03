@@ -27,4 +27,26 @@ let newBtn = document.createElement("button");
 newBtn.innerText = "click me!";
 console.log(newBtn);
 
+//these all 4 are the add methods -->
 //node.append(el)-->adds at the end of node(inside)
+// div.append(newBtn);
+
+//node.prepend(el)-->adds at the start of node(inside)
+// div.prepend(newBtn);
+
+//node.before(el)-->adds before the node(outside)
+// div.before(newBtn);
+
+//node.after(el)-->adds after the node(outside)
+div.after(newBtn);
+
+
+//Delete Element.--> node.remove()-->removes the node
+para.remove();
+
+
+// pr qs..1 
+newBtn.style.color = "White";
+newBtn.style.backgroundColor = "red"; 
+
+//classList-->div.classList.add("anotherclass")
