@@ -1,5 +1,5 @@
 let heading = document.getElementById("heading"); //returns the value of h1
-console.dir(heading);
+console.dir(heading); //prints documents properties and methods...
 let headings = document.getElementsByClassName("heading-class");
 console.dir(headings);
 console.log(headings);
