@@ -1,19 +1,24 @@
+//selecting with id --> document.getElementById(" ")
 let heading = document.getElementById("heading"); //returns the value of h1
 console.dir(heading); //prints documents properties and methods...
+
+//selecting with class --> document.getElementByClassName(" ")
 let headings = document.getElementsByClassName("heading-class");
 console.dir(headings);
 console.log(headings);
-// document.getElementsByTagName
+//selecting with tag --> document.getElementsByTagName("")
+
+
+//Query Selector..
 let firstEl = document.querySelector("p"); //1st select
 console.dir(firstEl);
-
 let elements = document.querySelectorAll("p"); // select all .myclass/#myid/p
 console.dir(elements);
 
 
-/*
-tagName
-innerText
-innerHTML
-texrContent
+/* Properties..
+tagName : returns tag for element nodes
+innerText: returns the text content of the element and all its children
+innerHTML: returns the plain text or html contents in the element
+texrContent: returns textual content even for hidden elements
 */
