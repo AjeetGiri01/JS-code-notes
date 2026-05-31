@@ -1,0 +1,26 @@
+div {
+    height: 100px;
+    width: 100px;
+    background-color: dodgerblue;
+    color: whitesmoke;
+    border: 1px solid black;
+}
+
+#btn1 {
+    background-color: wheat;
+    color: black;
+}
+
+#btn3 {
+    background-color: blanchedalmond;
+    color: red;
+}
+
+.dark {
+    background-color: black;
+    color: white;
+}
+.light {
+    background-color: white;
+    color: black;
+}
