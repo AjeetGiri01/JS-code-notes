@@ -78,3 +78,17 @@ let prodNums = nums2.reduce((pre, curr) => {
     return pre*curr;
 });
 console.log(prodNums);
+
+//4. every method
+[2, 4, 6].every((el) => el%2 == 0);
+
+//5. spread 
+let arr5 = [3, 4, 6, 23, 45, 1, 5];
+console.log(Math.min(...arr5));
+
+//6. destructuring
+let names = ["tony", "bruce", "peter", "steve"];
+let [winner, runnerup, ...others] = names;
+console.log(winner);
+console.log(runnerup);
+console.log(others);
