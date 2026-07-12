@@ -49,4 +49,7 @@ para.remove();
 newBtn.style.color = "White";
 newBtn.style.backgroundColor = "red"; 
 
-//classList-->div.classList.add("anotherclass")
+//classList-->
+// div.classList.add("anotherclass");
+// div.classList.remove("class name");
+// div.classList.toggle("class name");
