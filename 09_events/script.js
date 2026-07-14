@@ -80,3 +80,10 @@ mode.addEventListener("click", () =>{
     }
     console.log(currMode);
 })
+
+
+//event bubbling.. ->>
+// div.addEventListener("click", function (event) {
+//     event.stopPropagation();
+//     console.log("div was clicked");
+// });
