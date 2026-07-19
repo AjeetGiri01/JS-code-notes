@@ -68,3 +68,24 @@ async function demo() {
     console.log(`new number is ${a + 2}`);
 }
 
+
+
+//--------------------------------------------
+//json -> api returns the json(javascript object notation) data 
+let jsonRes = '{"fact":"In contrast to dogs, cats have not undergone major changes during their domestication process.","length":94}';
+console.log(jsonRes);
+
+// JSON.parse(data) --> to parse a sting data into a js object
+let validRes = JSON.parse(jsonRes);
+console.log(validRes);
+console.log(validRes.fact);
+
+//JSON.stringify(student) --> to parse a js object data into JSON
+let student = {
+    name: "ajeet",
+    age: 20, 
+    marks: 98
+};
+console.log(JSON.stringify(student));
+
+//testing API requests --> hoppscotch and postman
